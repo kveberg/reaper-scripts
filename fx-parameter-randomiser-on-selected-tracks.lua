@@ -2,7 +2,7 @@
 
 
 -- DEBUG HELPER --
-local DEBUG = true
+local DEBUG = false
 local DEBUG_VERBOSE = false
 function msg(msg)
   if DEBUG then
