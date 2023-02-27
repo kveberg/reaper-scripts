@@ -1,7 +1,7 @@
 -- Randomises parameter of TrackFX on last touched FX --
 
-local DEBUG = true
-local DEBUG_VERBOSE = true
+local DEBUG = false
+local DEBUG_VERBOSE = false
 function msg(msg)
   if DEBUG then
     reaper.ShowConsoleMsg(tostring(msg .. "\n"))
