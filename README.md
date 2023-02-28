@@ -1,5 +1,8 @@
 # reaper-scripts
-Filing away ReaScripts and/or JSFX for a rainy day
+
+<p align="center">
+  <img width="276" height="314" src="https://www.reaper.fm/v5img/logo.jpg"> 
+</p>
 
 ## fx-parameter-randomiser-on-last-touched-fx.lua
 
