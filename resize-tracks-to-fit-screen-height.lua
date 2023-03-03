@@ -24,7 +24,6 @@ for i=1, n_tracks, 1 do
   reaper.SetTrackSelected(track, false)
 end
 
---reaper.ShowConsoleMsg(tostring(previous_selection)
 for i, v in ipairs(previous_selection) do
   track = reaper.GetTrack(0, v-1)
   reaper.SetTrackSelected(track, true)
