@@ -18,7 +18,6 @@ local track
 for i=1, n_tracks, 1 do
   track = reaper.GetTrack(0, i-1)
   local previously_selected = reaper.IsTrackSelected(track)
-  --if reaper.IsTrackSelected(track) then table.insert(previous_selection, 1, i) end
   reaper.SetTrackSelected(track, true)
   reaper.SetMediaTrackInfo_Value(track, "I_HEIGHTOVERRIDE", track_size)
   if not previously_selected then reaper.SetTrackSelected(track, false) end
