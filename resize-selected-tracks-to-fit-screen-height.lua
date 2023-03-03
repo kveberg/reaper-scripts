@@ -23,6 +23,7 @@ for i=1, n_tracks, 1 do
   if previously_selected then
     reaper.SetMediaTrackInfo_Value(track, "I_HEIGHTOVERRIDE", track_size)
   end
-  if not previously_selected then reaper.SetTrackSelected(track, false) end
-  
+  if not previously_selected then reaper.SetTrackSelected(track, false) end  
 end
+
+reaper.TrackList_AdjustWindows(false)
