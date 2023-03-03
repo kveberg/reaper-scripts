@@ -16,3 +16,7 @@ Randomises all parameter values of all TrackFX on selected tracks.
 ## resize-tracks-to-fit-screen-height.lua
 
 Resizes track heights to fit your monitor's resolution.
+
+## resize-selected-tracks-to-fit-screen-height.lua
+
+Resizes *selected* tracks' heights to fit your monitor's resolution.
