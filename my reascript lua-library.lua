@@ -2,7 +2,7 @@
 -- Just a collection of functions I find useful --
 --------------------------------------------------
 
-local function msg(msg, verbose)
+local function log(msg, verbose)
   -- add booleans DEBUG and DEBUG_VERBOSE along with a \n at the start of the script to keep things tidy
   if DEBUG then
     if verbose and not DEBUG_VERBOSE then return end
